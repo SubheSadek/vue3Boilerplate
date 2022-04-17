@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http - equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title>
+        <%= htmlWebpackPlugin.options.title %>
+    </title>
+    <link rel="stylesheet" href="./assets/css/bulma.min.css">
+    <link rel="stylesheet" href="./assets/css/category-megamenu.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/popup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+    </script>
+    <script src="./assets/js/jquery.lazyload.js">
+    </script>
+
+    <link rel="stylesheet" href="https://availtrade.com/public/frontEnd/assets/css/slider.css">
+
+    <style>
+        .store-recommended-img-size {
+            min-height: 105px!important;
+            max-height: 105px!important;
+            min-width: 105px!important;
+            max-width: 105px!important;
+        }
+        
+        .pagination-link.is-current {
+            background-color: #485fc7!important;
+            border-color: #485fc7;
+            color: #fff;
+        }
+        
+        .currency_dropdown a:visited {
+            color: black!important;
+        }
+        
+        #chat_section_main a:hover {
+            color: white!important;
+        }
+        
+        .evanyou {
+            z-index: 999999999;
+        }
+        
+        .evanyou:hover {
+            background: #f6f3f3;
+            border-top: 1px solid #c9c9c9;
+            border-left: 1px solid #c9c9c9;
+            border-right: none;
+            border-bottom: 1px solid #c9c9c9;
+        }
+        
+        .sidebar-navbar-mega-dropdown {
+            border-top: 1px solid #c9c9c9;
+            border-right: 1px solid #c9c9c9;
+            border-left: 1px dotted #c9c9c9;
+            border-bottom: 1px solid #c9c9c9;
+        }
+        
+        .message-pop {
+            height: 200px;
+        }
+        
+        .emty-chat-box {
+            position: fixed;
+            right: 60px;
+            bottom: 0px;
+            background: dodgerblue;
+            color: white;
+            width: 210px;
+            border: none;
+            height: 46px;
+            opacity: 0.8;
+            transition: opacity 0.3s;
+            cursor: pointer;
+            box-shadow: 0 5px 5px rgb(0 0 0 / 40%);
+        }
+        
+        .modal a.close-modal {
+            top: 3.5px!important;
+            right: 7.5px!important;
+        }
+        
+        a.dropdown-item:hover,
+        button.dropdown-item:hover {
+            background-color: red;
+            color: #0a0a0a;
+        }
+        
+        @font-face {
+            font-family: SolaimanLipi;
+            src: local('SolaimanLipi'), url('https://availtrade.com/public/assets/fonts/solaimanlipi.woff') format('woff'), url('https://availtrade.com/public/assets/fonts/solaimanlipi.woff2') format('woff2');
+        }
+    </style>
+</head>
+
+<body>
+    <noscript>
+                <strong> We 're sorry but
+                    <%=htmlWebpackPlugin.options.title %>
+                        doesn't work properly without JavaScript enabled.Please enable it to continue.
+                </strong>
+            </noscript>
+    <div id="app">
+    </div>
+    <script src="./assets/js/main.js">
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            var height = $(window).height();
+            if (height <
+                900) {
+                $('body').css('zoom', '80%');
+                / Webkit browsers /
+                $('body').css('zoom', '0.8');
+                / Other non-webkit browsers /
+                $('body').css('-moz-transform', scale(0.8,
+                    0.8));
+                / Moz-browsers /
+            }
+        });
+    </script>
+
+
+    <script src="https://availtrade.com/public/frontEnd/assets/js/miniSlider.js">
+    </script>
+
+    <script>
+        $(function() {
+            $('#slider').miniSlider();
+        });
+    </script>
+</body>
+
+</html>

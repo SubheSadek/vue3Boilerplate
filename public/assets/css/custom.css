@@ -1,0 +1,240 @@
+.first-slider {
+    width: inherit !important;
+    height: inherit !important;
+}
+
+.img-border {
+    border: 1px solid #979797;
+}
+
+.img-border-selected {
+    border: 1px solid #ff6a00;
+}
+
+.increament {
+    width: 10px !important;
+    height: 26px !important;
+    font-weight: bold;
+    text-align: center;
+    color: #fb8a2e;
+    border: 2px solid #ff751a;
+}
+
+.increament:hover {
+    width: 10px !important;
+    height: 26px !important;
+    font-weight: bold;
+    text-align: center;
+    background: #ff751a;
+    color: #fff;
+    border: 2px solid #ff751a;
+}
+
+.decreament {
+    width: 10px !important;
+    height: 26px !important;
+    font-weight: bold;
+    text-align: center;
+    color: #ff751a;
+    border: 2px solid #ff751a;
+}
+
+.decreament:hover {
+    width: 10px !important;
+    height: 26px !important;
+    font-weight: bold;
+    text-align: center;
+    background: #ff751a;
+    color: #fff;
+    border: 1px solid #ff751a;
+}
+
+.idinput {
+    width: 60px;
+    height: 26px;
+}
+
+.sticky {
+    position: -webkit-sticky !important;
+    position: sticky !important;
+    top: 0;
+    overflow: auto;
+    z-index: 999999999;
+}
+
+.contact-supplier {
+    text-decoration: none;
+    background: #ff7519;
+    padding: 5px;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.yrs {
+    background: #eee;
+    padding: 7px;
+    color: #333333;
+    border-radius: 20px;
+}
+
+.supplier {
+    color: #004B91;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.supplier-hover:hover {
+    box-shadow: 11px 10px 5px -8px rgba(0,0,0,0.36);
+    -webkit-box-shadow: 11px 10px 5px -8px rgba(0,0,0,0.36);
+    -moz-box-shadow: 11px 10px 5px -8px rgba(0,0,0,0.36);
+}
+
+.supplier-title {
+    color: #004b91;
+}
+
+.supplier-title:hover {
+    color: #ff7519;
+    text-decoration: underline;
+}
+
+.left-sidebar-categoris {
+    color: #333;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+.markets {
+    height: 190px;
+    overflow-y: scroll;
+}
+
+input[name=minmaxinput] {
+    width: 70px;
+    color: red;
+}
+
+.product-contact-supplier {
+    padding: 5px;
+    background: #fff;
+    color: #000;
+    border: 1px solid #dae2ed;
+    border-radius: 20px;
+}
+
+.product-contact-supplier:hover {
+    padding: 5px;
+    background: #ff6600;
+    border: 1px solid #ff6600;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.color img{
+    width: 22px;
+    height: 22px;
+    vertical-align: top;
+}
+
+.wrapper {
+    background-color: #FFF;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    border: 2px solid #f8f8f8;
+}
+
+.sonia {
+    float: left !important;
+}
+
+.footer-social-icon {
+    background-color: transparent;
+    padding: 10px;
+}
+
+.footer-apps-icon {
+    background-color: transparent;
+    padding: 10px;
+}
+
+.footer-list-controller li a {
+    color: #000 !important;
+}
+
+input[type=text].footer-subscribe-controller {
+    width: 280px !important;
+    height: 50px;
+    font-size: 20px;
+    padding: 5px 5px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.footer-subscribe-controller:focus {
+    width: 280px !important;
+    height: 50px;
+    font-size: 20px;
+    padding: 5px 5px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.footer-top-bar {
+    border-top: 4px solid #000;
+}
+
+.choose-package {
+    width: 100px;
+    height: 35px;
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+    padding: 12px;
+    border: none;
+    background: #ff6000;
+    color: #fff;
+    font-family: Arial;
+    border-radius: 8px;
+    font-size: 22px;
+    margin: 10px;
+    outline: none;
+}
+
+.package {
+    border-bottom-left-radius: 6px !important;
+    max-width: 325px;
+    min-height: 400px;
+}
+
+.package-headline {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.package-price {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.package-save {
+    font-size: 14px;
+    font-weight: bold;
+    color: #de3723;
+}
+
+.package-renew {
+    font-size: 14px;
+    padding: 15px;
+    font-weight: bold;
+    color: #9b9b9b;
+}
+
+.package-original-amount {
+    font-size: 14px;
+    font-weight: bold;
+    color: #9b9b9b;
+}
